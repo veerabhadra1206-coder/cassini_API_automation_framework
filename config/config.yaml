@@ -1,0 +1,10 @@
+base_urls:
+  reqres: "https://reqres.in/api"
+  jsonplaceholder: "https://jsonplaceholder.typicode.com"
+  gorest: "https://gorest.co.in/public/v2"
+  httpbin: "https://httpbin.org"
+
+tokens:
+  gorest_token: "a82d46266c9cd1757dbb39fd149d82eb63755482df9539a72e661518e838459e"
+  reqres_api_key: "reqres-free-v1"
+timeout: 5

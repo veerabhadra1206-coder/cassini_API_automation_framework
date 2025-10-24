@@ -1,0 +1,184 @@
+2025-10-24 09:57:21,585 - INFO - ----- New Test Run Started -----
+2025-10-24 09:57:21,637 - INFO - POST https://reqres.in/api/login
+2025-10-24 09:57:22,708 - INFO - POST https://reqres.in/api/login | Status: 200 | Time: 1.07s
+2025-10-24 09:57:22,713 - INFO - POST https://reqres.in/api/login
+2025-10-24 09:57:23,502 - INFO - POST https://reqres.in/api/login | Status: 200 | Time: 0.79s
+2025-10-24 09:57:23,586 - INFO - POST https://reqres.in/api/login
+2025-10-24 09:57:24,353 - INFO - POST https://reqres.in/api/login | Status: 400 | Time: 0.77s
+2025-10-24 09:57:24,353 - WARNING - Response body: {"error":"Missing password"}
+2025-10-24 09:57:24,358 - INFO - POST https://jsonplaceholder.typicode.com/posts
+2025-10-24 09:57:25,019 - INFO - POST https://jsonplaceholder.typicode.com/posts | Status: 201 | Time: 0.66s
+2025-10-24 09:57:25,030 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:57:26,038 - INFO - POST https://gorest.co.in/public/v2/users | Status: 201 | Time: 1.01s
+2025-10-24 09:57:26,045 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-24 09:57:26,492 - INFO - GET https://jsonplaceholder.typicode.com/posts/1 | Status: 200 | Time: 0.45s
+2025-10-24 09:57:26,496 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:57:27,937 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 1.44s
+2025-10-24 09:57:27,938 - WARNING - Response body: [{"field":"email","message":"can't be blank"},{"field":"name","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-10-24 09:57:27,951 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:57:28,953 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 1.00s
+2025-10-24 09:57:28,954 - WARNING - Response body: [{"field":"name","message":"is too long (maximum is 200 characters)"}]
+2025-10-24 09:57:28,962 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:57:29,922 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 0.96s
+2025-10-24 09:57:29,923 - WARNING - Response body: [{"field":"email","message":"has already been taken"}]
+2025-10-24 09:57:29,931 - INFO - GET https://jsonplaceholder.typicode.com/posts/99999
+2025-10-24 09:57:30,405 - INFO - GET https://jsonplaceholder.typicode.com/posts/99999 | Status: 404 | Time: 0.47s
+2025-10-24 09:57:30,406 - WARNING - Response body: {}
+2025-10-24 09:57:30,414 - INFO - DELETE https://httpbin.org/get
+2025-10-24 09:57:32,883 - INFO - DELETE https://httpbin.org/get | Status: 405 | Time: 2.47s
+2025-10-24 09:57:32,883 - WARNING - Response body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+
+2025-10-24 09:57:32,887 - INFO - GET https://jsonplaceholder.typicode.com/invalid-endpoint
+2025-10-24 09:57:33,446 - INFO - GET https://jsonplaceholder.typicode.com/invalid-endpoint | Status: 404 | Time: 0.56s
+2025-10-24 09:57:33,446 - WARNING - Response body: {}
+2025-10-24 09:57:33,451 - INFO - GET https://jsonplaceholder.typicode.com/posts
+2025-10-24 09:57:34,148 - INFO - GET https://jsonplaceholder.typicode.com/posts | Status: 200 | Time: 0.70s
+2025-10-24 09:57:34,149 - INFO - GET https://jsonplaceholder.typicode.com/posts/1
+2025-10-24 09:57:34,716 - INFO - GET https://jsonplaceholder.typicode.com/posts/1 | Status: 200 | Time: 0.57s
+2025-10-24 09:57:34,728 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,729 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,730 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,732 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,735 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,736 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,737 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,738 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,741 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:34,742 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:38,320 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 3.58s
+2025-10-24 09:57:38,759 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.03s
+2025-10-24 09:57:38,990 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.25s
+2025-10-24 09:57:39,398 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.67s
+2025-10-24 09:57:39,585 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.85s
+2025-10-24 09:57:39,590 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.85s
+2025-10-24 09:57:40,055 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 5.32s
+2025-10-24 09:57:42,070 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 7.33s
+2025-10-24 09:57:43,102 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 8.37s
+2025-10-24 09:57:46,924 - INFO - GET https://httpbin.org/delay/1
+2025-10-24 09:57:51,216 - INFO - GET https://httpbin.org/delay/1 | Status: 200 | Time: 4.29s
+2025-10-24 09:57:51,231 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=1&_limit=20
+2025-10-24 09:57:51,719 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=1&_limit=20 | Status: 200 | Time: 0.49s
+2025-10-24 09:57:51,720 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=2&_limit=20
+2025-10-24 09:57:52,209 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=2&_limit=20 | Status: 200 | Time: 0.49s
+2025-10-24 09:57:52,212 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=3&_limit=20
+2025-10-24 09:57:52,857 - INFO - GET https://jsonplaceholder.typicode.com/posts?_page=3&_limit=20 | Status: 200 | Time: 0.64s
+2025-10-24 09:57:52,865 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,866 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,868 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,868 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,869 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,871 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,872 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,873 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,874 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:52,875 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:55,230 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.36s
+2025-10-24 09:57:55,230 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:55,241 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.37s
+2025-10-24 09:57:55,241 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:55,558 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.69s
+2025-10-24 09:57:55,558 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:55,614 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.74s
+2025-10-24 09:57:55,614 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:55,983 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.11s
+2025-10-24 09:57:55,984 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:56,183 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.31s
+2025-10-24 09:57:56,183 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:56,424 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.55s
+2025-10-24 09:57:56,425 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:56,856 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.99s
+2025-10-24 09:57:56,857 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:57,893 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.34s
+2025-10-24 09:57:57,894 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:58,039 - INFO - POST https://httpbin.org/post | Status: 502 | Time: 2.42s
+2025-10-24 09:57:58,039 - WARNING - Response body: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
+2025-10-24 09:57:58,040 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:58,134 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.90s
+2025-10-24 09:57:58,134 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:58,394 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.41s
+2025-10-24 09:57:58,395 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:58,491 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.25s
+2025-10-24 09:57:58,492 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:59,633 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.45s
+2025-10-24 09:57:59,634 - INFO - POST https://httpbin.org/post
+2025-10-24 09:57:59,915 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.87s
+2025-10-24 09:57:59,915 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:00,014 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.12s
+2025-10-24 09:58:00,014 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:00,084 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.23s
+2025-10-24 09:58:00,084 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:00,998 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 4.57s
+2025-10-24 09:58:01,000 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:01,417 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.28s
+2025-10-24 09:58:01,417 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:01,586 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.09s
+2025-10-24 09:58:01,587 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:02,420 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.34s
+2025-10-24 09:58:02,421 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,306 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.31s
+2025-10-24 09:58:03,306 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,346 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.33s
+2025-10-24 09:58:03,346 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,533 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 10.65s
+2025-10-24 09:58:03,534 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,564 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 10.69s
+2025-10-24 09:58:03,565 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,904 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.48s
+2025-10-24 09:58:03,905 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:03,972 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.55s
+2025-10-24 09:58:03,972 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:04,532 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.95s
+2025-10-24 09:58:04,533 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:04,553 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 4.92s
+2025-10-24 09:58:04,553 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:05,197 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.85s
+2025-10-24 09:58:05,197 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:05,227 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.92s
+2025-10-24 09:58:05,228 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:05,543 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.64s
+2025-10-24 09:58:05,544 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:06,260 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.29s
+2025-10-24 09:58:06,260 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:06,318 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.78s
+2025-10-24 09:58:06,318 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:06,806 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.27s
+2025-10-24 09:58:06,807 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:06,860 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.63s
+2025-10-24 09:58:06,860 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:07,017 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.82s
+2025-10-24 09:58:07,017 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:07,119 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 3.55s
+2025-10-24 09:58:07,120 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:07,790 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.25s
+2025-10-24 09:58:07,791 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:08,045 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 8.13s
+2025-10-24 09:58:08,045 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:08,100 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 1.78s
+2025-10-24 09:58:08,284 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 9.89s
+2025-10-24 09:58:09,234 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.43s
+2025-10-24 09:58:09,595 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 5.04s
+2025-10-24 09:58:09,930 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 2.91s
+2025-10-24 09:58:13,145 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 5.35s
+2025-10-24 09:58:13,196 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 5.15s
+2025-10-24 09:58:13,448 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 6.59s
+2025-10-24 09:58:14,192 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 7.93s
+2025-10-24 09:58:18,706 - INFO - POST https://httpbin.org/post
+2025-10-24 09:58:24,904 - INFO - POST https://httpbin.org/post | Status: 200 | Time: 6.20s
+2025-10-24 09:58:24,918 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:58:25,901 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 0.98s
+2025-10-24 09:58:25,902 - WARNING - Response body: [{"field":"email","message":"can't be blank"},{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"}]
+2025-10-24 09:58:25,909 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:58:26,900 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 0.99s
+2025-10-24 09:58:26,900 - WARNING - Response body: [{"field":"email","message":"is invalid"}]
+2025-10-24 09:58:26,904 - INFO - POST https://gorest.co.in/public/v2/users
+2025-10-24 09:58:27,883 - INFO - POST https://gorest.co.in/public/v2/users | Status: 422 | Time: 0.98s
+2025-10-24 09:58:27,883 - WARNING - Response body: [{"field":"gender","message":"can't be blank, can be male of female"},{"field":"status","message":"can't be blank"},{"field":"email","message":"has already been taken"}]
