@@ -6,12 +6,14 @@ Pytest + Requests based API Automation Framework built for Cassini Technical Ass
 ## Structure
 - `config/config.yaml` : Contains base URLs and tokens
 - `utils/api_client.py` : Handles HTTP requests and logging
-- `conftest.py` : Initializes clients and loads configuration
-- `tests/` : API tests 
-- `reports/` : HTML reports after execution
-- `utils/logger.py`: All requests and responses are logged to `logs/test_run.log`.
+- `utils/logger.py` : All requests and responses are logged to `logs/test_run.log`.
                   Old logs are cleared automatically at the start of each test run
+- `conftest.py` : Initializes clients and loads configuration
+- `tests/` : API tests
+- `reports/` : HTML reports after execution
+- `logs/` : Stores request/response logs
 
+---
 ## How to Run
 1. Install dependencies:
    ```bash
