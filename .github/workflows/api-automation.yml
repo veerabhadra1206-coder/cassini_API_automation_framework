@@ -31,10 +31,14 @@ jobs:
           pip install pytest-html
           pip install pyyaml requests
 
+      # Create reports folder (cross-platform safe)
+      - name: Create reports folder
+        run: |
+          python -c "import os; os.makedirs('reports', exist_ok=True)"
+
       # Run API Tests and Generate HTML Report
       - name: Run API Tests
         run: |
-          mkdir -p reports
           pytest tests/ --html=reports/report.html --self-contained-html
         continue-on-error: true
 
