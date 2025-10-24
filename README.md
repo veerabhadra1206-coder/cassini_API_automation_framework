@@ -23,14 +23,16 @@ Pytest + Requests based API Automation Framework built for Cassini Technical Ass
    ```
 ## CI/CD Integration
 
-GitHub Actions workflow is included in .github/workflows/api_automation.yml
-1. Workflow triggers on:
-   -Push to main
-   -Pull requests to main
-2. Workflow steps:
-   -Checkout repository
-   -Setup Python
-   -Install dependencies
-   -Create reports folder 
-   -Run API tests and generate HTML report
-   -Upload HTML report as an artifact
+- GitHub Actions workflow is included in `.github/workflows/api_automation.yml`
+
+### Workflow Triggers
+- Push to `main` branch
+- Pull requests to `main` branch
+
+### Workflow Steps
+1. Checkout Repository
+2. Setup Python
+3. Install Dependencies
+4. Create Reports Folder 
+5. Run API Tests and Generate HTML Report
+6. Upload HTML Report as an Artifact
